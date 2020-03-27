@@ -1,0 +1,33 @@
+.navbar {
+    background-color: rgba(3, 12, 84, 0.8);
+    border-radius: 10px;
+    color: white;
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.course-list-title {
+    margin: 10px 20px;
+    color: rgba(3, 12, 84, 0.8);
+}
+
+.course-list {
+    list-style-type: none;
+    margin:  10px 20px;
+    padding: 10px;
+    background: white;
+    color: rgba(3, 12, 84, 0.8);
+    border-radius: 10px;
+    font-size: 130%;
+}
+
+.course-link {
+    color: rgba(3, 12, 84, 0.8);
+}
