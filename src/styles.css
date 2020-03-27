@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Lilita One', cursive;
-    background-image: url("images/background.png");
+    background-image: url("assets/background.png");
     background-position: center;
+    margin-top: 20px;
 }

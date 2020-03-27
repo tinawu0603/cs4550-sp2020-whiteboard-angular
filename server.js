@@ -4,7 +4,7 @@ const path = require('path');
 
 const app = express();
 
-// Server only the static files from the dist directory
+// Serve only the static files from the dist directory
 app.use(express.static(__dirname + '/dist/cs4550-sp2020-whiteboard-angular'));
 
 app.get('/*', function (req, res) {
