@@ -9,7 +9,7 @@ import { CourseServiceClient } from '../services/CourseServiceClient';
 
 export class CourseListComponent implements OnInit {
 
-    title = 'Course List Component'
+    title = 'My Courses'
     courses = []
 
     constructor(private service: CourseServiceClient) { }

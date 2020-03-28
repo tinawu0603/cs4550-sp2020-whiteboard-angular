@@ -16,6 +16,7 @@ a {
 .course-list-title {
     margin: 10px 20px;
     color: rgba(3, 12, 84, 0.8);
+    text-align: center;
 }
 
 .course-list {
