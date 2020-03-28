@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 import { genericServer, nuid } from "./constants";
 
 @Injectable()
-export class ModuleServiceClient {
-    findModulesForCourse = (cid: string) =>
-        fetch(genericServer + '/api/' + nuid + '/courses/' + cid + '/modules')
+export class LessonServiceClient {
+    findLessonsForModule = (mid: string) =>
+        fetch(genericServer + '/api/' + nuid + '/modules/' + mid + '/lessons')
             .then(response => response.json())
 
 }
