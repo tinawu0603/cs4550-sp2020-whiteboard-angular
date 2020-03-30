@@ -1,0 +1,40 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    background-color: white;
+    border-radius: 10px;
+}
+
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: rgba(3, 12, 84, 0.8);
+    text-align: center;
+    text-decoration: none;
+}
+
+.selected {
+    background-color: rgba(3, 12, 84, 0.8) !important;
+}
+  
+.selected a {
+    color: white !important;
+}
+
+.lesson-tabs {
+    list-style-type: none;
+    margin:  10px 20px;
+    padding: 10px;
+    background: white;
+    color: rgba(3, 12, 84, 0.8);
+    border-radius: 10px;
+}
+
+.lesson-link {
+    color: rgba(3, 12, 84, 0.8);
+}
