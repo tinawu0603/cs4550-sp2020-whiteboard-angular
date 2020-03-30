@@ -1,0 +1,32 @@
+.title {
+    color: white;
+    padding: 25px;
+}
+
+.container {
+    text-align: center;
+    font-size: 150%;
+    background-color: rgba(3, 12, 84, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.courses-button {
+    background-color: rgba(195, 15, 15, 1);
+	color: white;
+	outline-color: rgba(195, 15, 15, 1);
+	box-shadow: none;
+	border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+}
