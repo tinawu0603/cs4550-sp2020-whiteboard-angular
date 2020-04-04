@@ -1,0 +1,19 @@
+<nav [ngClass]="'navbar navbar-expand-lg nav-fill'">
+    <img src="assets/icon.png" />
+    <span>Whiteboard</span>
+</nav>
+
+<div>
+    <h1 [ngClass]="'quizzes-title'">{{title}}</h1>
+</div>
+
+<ul>
+    <li [ngClass]="'quizzes-list'" *ngFor="let quiz of quizzes">
+        <a [ngClass]="'quiz-link'" routerLink="course/{{courseId}}/quizzes/{{quiz._id}}">
+            {{quiz.title}}
+        </a>
+        <a class="btn float-right" routerLink="course/{{courseId}}/quizzes/{{quiz._id}}">
+            Start
+        </a>
+    </li>
+</ul>

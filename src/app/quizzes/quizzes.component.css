@@ -13,13 +13,13 @@ a {
     text-decoration: none;
 }
 
-.course-list-title {
+.quizzes-title {
     margin: 10px 20px;
     color: rgba(3, 12, 84, 0.8);
     text-align: center;
 }
 
-.course-list {
+.quizzes-list {
     list-style-type: none;
     margin:  10px 20px;
     padding: 10px;
@@ -29,6 +29,6 @@ a {
     font-size: 130%;
 }
 
-.course-link, .quizzes-link {
+.quizzes-link {
     color: rgba(3, 12, 84, 0.8);
 }
