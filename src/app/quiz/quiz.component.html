@@ -1,6 +1,15 @@
 <nav [ngClass]="'navbar navbar-expand-lg nav-fill'">
-    <img src="assets/icon.png" />
-    <span>Whiteboard</span>
+    <ul [ngClass]="'navbar-nav mr-auto'">
+        <li [ngClass]="'nav-item'">
+            <img src="assets/icon.png" />
+            <span>Whiteboard</span>
+        </li>
+        <li [ngClass]="'nav-item link-nav-item'">
+            <a [ngClass]="'back-link'" href="/courses">
+                <span>My Courses</span>
+            </a>
+        </li>
+    </ul>
 </nav>
 
 <div>

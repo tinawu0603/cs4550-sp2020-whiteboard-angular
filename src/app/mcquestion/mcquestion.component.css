@@ -1,0 +1,9 @@
+.question-title {
+    padding: 10px;
+}
+
+.list-group-item {
+    border-width: 2px;
+    border-color: rgba(3, 12, 84, 0.8);
+    font-size: 80%;
+}

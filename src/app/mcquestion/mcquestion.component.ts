@@ -13,10 +13,20 @@ export class MCQuestionComponent implements OnInit {
   @Input()
   question = { _id: '', title: '', question: '', choices: [], answer: '', correct: '' }
   grading = false
+  answer = null
   faCheck = faCheck
   faTimes = faTimes
+  correct
 
-  grade = () => { this.grading = true; }
+  grade = () => {
+    if (this.answer === null) {
+      return false;
+    }
+    this.grading = true;
+    if (this.answer === this.question.correct) {
+      this.correct = true;
+    }
+  }
 
   ngOnInit(): void {
   }

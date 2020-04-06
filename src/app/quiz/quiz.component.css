@@ -1,0 +1,50 @@
+.navbar {
+    background-color: rgba(3, 12, 84, 0.8);
+    border-radius: 10px;
+    color: white;
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav */
+
+.nav-item {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.back-link {
+    color: white;
+}
+
+.back-link:hover, .back-link:focus, .back-link:active {
+    color: rgba(195, 15, 15, 1);
+}
+
+.link-nav-item {
+    margin-top: 10px;
+}
+
+.quiz-title {
+    margin: 10px 20px;
+    color: rgba(3, 12, 84, 0.8);
+    text-align: center;
+}
+
+.questions-list {
+    list-style-type: none;
+    margin:  10px 20px;
+    padding: 10px;
+    background: white;
+    color: rgba(3, 12, 84, 0.8);
+    border-radius: 10px;
+    font-size: 130%;
+}

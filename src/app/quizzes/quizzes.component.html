@@ -9,11 +9,11 @@
 
 <ul>
     <li [ngClass]="'quizzes-list'" *ngFor="let quiz of quizzes">
-        <a [ngClass]="'quiz-link'" routerLink="course/{{courseId}}/quizzes/{{quiz._id}}">
+        <a [ngClass]="'quiz-link'" routerLink="{{quiz._id}}">
             {{quiz.title}}
         </a>
         <button class="btn start-btn float-right">
-            <a class="start-link" routerLink="course/{{courseId}}/quizzes/{{quiz._id}}">
+            <a class="start-link" routerLink="{{quiz._id}}">
                 Start
             </a>
         </button>
