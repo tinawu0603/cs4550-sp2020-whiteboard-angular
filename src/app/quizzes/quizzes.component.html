@@ -12,8 +12,10 @@
         <a [ngClass]="'quiz-link'" routerLink="course/{{courseId}}/quizzes/{{quiz._id}}">
             {{quiz.title}}
         </a>
-        <a class="btn float-right" routerLink="course/{{courseId}}/quizzes/{{quiz._id}}">
-            Start
-        </a>
+        <button class="btn start-btn float-right">
+            <a class="start-link" routerLink="course/{{courseId}}/quizzes/{{quiz._id}}">
+                Start
+            </a>
+        </button>
     </li>
 </ul>
