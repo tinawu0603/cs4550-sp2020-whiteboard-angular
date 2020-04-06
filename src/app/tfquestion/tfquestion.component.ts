@@ -15,8 +15,18 @@ export class TFQuestionComponent implements OnInit {
   grading = false
   faCheck = faCheck
   faTimes = faTimes
+  answer = null;
+  correct
 
-  grade = () => { this.grading = true; }
+  grade = () => {
+    if (this.answer === null) {
+      return false;
+    }
+    this.grading = true;
+    if (this.answer === this.question.correct) {
+      this.correct = true;
+    }
+  }
 
   ngOnInit(): void {
   }
